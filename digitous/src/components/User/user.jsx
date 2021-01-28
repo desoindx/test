@@ -8,7 +8,7 @@ class User extends React.Component {
         console.log(name);
         return (
             <div>
-                <h2 style={{color: color, backgroundColor: "black"}}>Utilisateur: {this.props.name}, 99 years old</h2>
+                <h2 style={{color: color, backgroundColor: "black"}}>Utilisateur: {name}, {age} years old</h2>
                 {
                     //JQuery => $("button").click(function() {fait qqch})
                     //JQuery => $("button").click(() => {fait qqch})
